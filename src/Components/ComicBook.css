@@ -1,0 +1,26 @@
+.comic-book {
+  display: grid;
+  grid-template-columns: repeat(
+    2,
+    1fr
+  ); /* Change the number of columns as needed */
+  gap: 20px; /* Adjust the gap between panels */
+  padding: 20px;
+}
+
+.panel {
+  border: 2px solid #000;
+  padding: 20px;
+  /* Add more styling for the panels as needed */
+}
+
+/* Define specific styles for each panel */
+.panel-1 {
+  /* Example specific style for panel 1 */
+}
+
+.panel-2 {
+  /* Example specific style for panel 2 */
+}
+
+/* Add styles for other panels similarly */
