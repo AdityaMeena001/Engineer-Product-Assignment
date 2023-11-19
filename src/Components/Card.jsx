@@ -34,7 +34,7 @@ const SpeechBubble = ({ speech, editMode, styles }) => {
         <textarea
           value={inputText}
           onChange={handleInputChange}
-          className=" -skew-x- disabled:bg-white disabled:opacity-90 overflow-hidden border-2 -mx-4 border-black max-w-full max-h-full resize min-w-[60px] text-center min-h-[40px] p-2 rounded-t-[40px] rounded-l-[40px] focus:outline-none"
+          className=" -skew-x- disabled:bg-white overflow-hidden border-2 -mx-4 border-black max-w-full max-h-full resize min-w-[60px] text-center min-h-[40px] p-2 rounded-t-[40px] rounded-l-[40px] focus:outline-none"
           placeholder="Enter Text..."
           disabled={!editMode}
         />
