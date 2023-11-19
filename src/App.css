@@ -28,14 +28,9 @@ body {
 }
 
 .panel {
-  background-color: #fff;
-  /* border: solid 2px #000; */
   box-shadow: 0 6px 6px -6px #000;
-  display: inline-block;
   flex: 1 1;
   margin: 1vmin;
-  overflow: hidden;
-  position: relative;
 }
 
 .text {
@@ -114,10 +109,10 @@ body {
   flex-basis: 325px;
 }
 .panel:nth-child(7) {
-  flex-basis: 400px;
+  flex-basis: 375px;
 }
 .panel:nth-child(8) {
-  flex-basis: 320px;
+  flex-basis: 425px;
 }
 .panel:nth-child(9) {
   flex-basis: 380px;
